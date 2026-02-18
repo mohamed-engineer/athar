@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ar" dir="rtl">
-      <body className={`${cairo.className} bg-black text-white`}>
+      <body className={`${cairo.className} bg-gradient-to-b from-green-900 via-green-800 to-black text-white`}>
         {children}
       </body>
     </html>
